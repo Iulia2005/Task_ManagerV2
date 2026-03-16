@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 
-/* This forces the browser to use your cursive font on all buttons and typing areas! */
 input, textarea, button {
   font-family: inherit;
 }
@@ -41,6 +40,7 @@ h1 {
 }
 
 .menu-container {
+  position: relative;
   display: flex;
   align-items: center;
 }
